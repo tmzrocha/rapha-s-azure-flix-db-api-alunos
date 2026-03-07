@@ -34,7 +34,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <span className="text-2xl font-bold text-gradient">Rapha Movies</span>
+            <span className="text-2xl font-bold text-gradient">POS TFTEC Movies</span>
           </Link>
 
           {/* Desktop Navigation */}
