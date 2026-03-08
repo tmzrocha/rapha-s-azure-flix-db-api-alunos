@@ -151,7 +151,7 @@ app.MapControllers();
 // Health check endpoint for diagnostics
 app.MapGet("/", () => Results.Ok(new { 
     status = "healthy", 
-    service = "RaphaMovies API",
+    service = "POS TFTEC API",
     timestamp = DateTime.UtcNow 
 }));
 
