@@ -101,9 +101,9 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo 
     { 
-        Title = "Rapha Movies API", 
+        Title = "POS TFTEC Movies API", 
         Version = "v1",
-        Description = "API para o sistema de aluguel de filmes Rapha Movies"
+        Description = "API para o sistema de aluguel de filmes POS TFTEC Movies"
     });
     
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
